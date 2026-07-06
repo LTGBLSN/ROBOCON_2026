@@ -1,5 +1,8 @@
-CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/CAN_SENT_TASK.c.obj: \
- D:\RoboMaster_git\ROBOCON_2026\code_mf\Src\CAN_SENT_TASK.c \
+CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MOTOR_PID_TASK.c.obj: \
+ D:\RoboMaster_git\ROBOCON_2026\code_mf\Src\MOTOR_PID_TASK.c \
+ D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/MOTOR_PID_TASK.h \
+ D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/pid.h \
+ D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/struct_typedef.h \
  D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/ABSC_GET_TASK.h \
  D:\RoboMaster_git\ROBOCON_2026\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS/cmsis_os.h \
  D:\RoboMaster_git\ROBOCON_2026\Middlewares\Third_Party\FreeRTOS\Source\include/FreeRTOS.h \
@@ -75,9 +78,6 @@ CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/CAN_SENT_TASK.c.obj: \
  D:\RoboMaster_git\ROBOCON_2026\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_tim_ex.h \
  D:\RoboMaster_git\ROBOCON_2026\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart.h \
  D:\RoboMaster_git\ROBOCON_2026\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart_ex.h \
- D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/remote_control.h \
- D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/can_receive.h \
- D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/dm_motor.h \
- D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/struct_typedef.h \
- D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/dm_motor.h \
- D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/GET_RC_TASK.h
+ D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/GET_RC_TASK.h \
+ D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/pid.h \
+ D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/uart_printf.h

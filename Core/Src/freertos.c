@@ -53,6 +53,10 @@ osThreadId ledHandle;
 osThreadId get_rcHandle;
 osThreadId imu_dataHandle;
 osThreadId can_sentHandle;
+osThreadId motor_pidHandle;
+osThreadId absc_getHandle;
+osThreadId get_target_abscHandle;
+osThreadId chassis_taskHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -65,6 +69,10 @@ void LED_TASK(void const * argument);
 void GET_RC_TASK(void const * argument);
 void IMU_DATA_GET(void const * argument);
 void CAN_SENT_TASK(void const * argument);
+void MOTOR_PID_TASK(void const * argument);
+void ABSC_GET_TASK(void const * argument);
+void GET_TARGET_ABSC(void const * argument);
+void CHASSIS_TASK(void const * argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -134,6 +142,22 @@ void MX_FREERTOS_Init(void) {
   /* definition and creation of can_sent */
   osThreadDef(can_sent, CAN_SENT_TASK, osPriorityIdle, 0, 256);
   can_sentHandle = osThreadCreate(osThread(can_sent), NULL);
+
+  /* definition and creation of motor_pid */
+  osThreadDef(motor_pid, MOTOR_PID_TASK, osPriorityIdle, 0, 512);
+  motor_pidHandle = osThreadCreate(osThread(motor_pid), NULL);
+
+  /* definition and creation of absc_get */
+  osThreadDef(absc_get, ABSC_GET_TASK, osPriorityIdle, 0, 1024);
+  absc_getHandle = osThreadCreate(osThread(absc_get), NULL);
+
+  /* definition and creation of get_target_absc */
+  osThreadDef(get_target_absc, GET_TARGET_ABSC, osPriorityIdle, 0, 1024);
+  get_target_abscHandle = osThreadCreate(osThread(get_target_absc), NULL);
+
+  /* definition and creation of chassis_task */
+  osThreadDef(chassis_task, CHASSIS_TASK, osPriorityIdle, 0, 1024);
+  chassis_taskHandle = osThreadCreate(osThread(chassis_task), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -247,6 +271,78 @@ __weak void CAN_SENT_TASK(void const * argument)
     osDelay(1);
   }
   /* USER CODE END CAN_SENT_TASK */
+}
+
+/* USER CODE BEGIN Header_MOTOR_PID_TASK */
+/**
+* @brief Function implementing the motor_pid thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_MOTOR_PID_TASK */
+__weak void MOTOR_PID_TASK(void const * argument)
+{
+  /* USER CODE BEGIN MOTOR_PID_TASK */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END MOTOR_PID_TASK */
+}
+
+/* USER CODE BEGIN Header_ABSC_GET_TASK */
+/**
+* @brief Function implementing the absc_get thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_ABSC_GET_TASK */
+__weak void ABSC_GET_TASK(void const * argument)
+{
+  /* USER CODE BEGIN ABSC_GET_TASK */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END ABSC_GET_TASK */
+}
+
+/* USER CODE BEGIN Header_GET_TARGET_ABSC */
+/**
+* @brief Function implementing the get_target_absc thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_GET_TARGET_ABSC */
+__weak void GET_TARGET_ABSC(void const * argument)
+{
+  /* USER CODE BEGIN GET_TARGET_ABSC */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END GET_TARGET_ABSC */
+}
+
+/* USER CODE BEGIN Header_CHASSIS_TASK */
+/**
+* @brief Function implementing the chassis_task thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_CHASSIS_TASK */
+__weak void CHASSIS_TASK(void const * argument)
+{
+  /* USER CODE BEGIN CHASSIS_TASK */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END CHASSIS_TASK */
 }
 
 /* Private application code --------------------------------------------------*/

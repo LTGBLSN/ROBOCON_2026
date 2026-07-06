@@ -298,6 +298,9 @@
 				144,
 				145,
 				146,
+				167,
+				168,
+				169,
 				170,
 				171,
 				172,
@@ -314,7 +317,8 @@
 				183,
 				184,
 				185,
-				186
+				186,
+				187
 			]
 		},
 		{
@@ -622,6 +626,13 @@
 				137,
 				138,
 				141,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
 				154,
 				155,
 				156,
@@ -634,10 +645,7 @@
 				163,
 				164,
 				165,
-				166,
-				167,
-				168,
-				169
+				166
 			]
 		},
 		{
@@ -690,6 +698,9 @@
 				144,
 				145,
 				146,
+				167,
+				168,
+				169,
 				170,
 				171,
 				172,
@@ -706,7 +717,8 @@
 				183,
 				184,
 				185,
-				186
+				186,
+				187
 			]
 		},
 		{
@@ -717,14 +729,7 @@
 				26,
 				51,
 				93,
-				147,
-				148,
-				149,
-				150,
-				151,
-				152,
-				153,
-				187
+				188
 			]
 		}
 	],
@@ -1514,38 +1519,8 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "code_mf/Inc/.idea/.gitignore",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 1,
-			"path" : "code_mf/Inc/.idea/Inc.iml",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 1,
-			"path" : "code_mf/Inc/.idea/MarsCodeWorkspaceAppSettings.xml",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 1,
-			"path" : "code_mf/Inc/.idea/editor.xml",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 1,
-			"path" : "code_mf/Inc/.idea/modules.xml",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 1,
-			"path" : "code_mf/Inc/.idea/vcs.xml",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 1,
-			"path" : "code_mf/Inc/.idea/workspace.xml",
-			"sourceGroupIndex" : 2
+			"path" : "code_mf/Inc/ABSC_GET_TASK.h",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
@@ -1569,6 +1544,11 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "code_mf/Inc/CHASSIS_TASK.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
 			"path" : "code_mf/Inc/DJI_motors.h",
 			"sourceGroupIndex" : 0
 		},
@@ -1579,7 +1559,17 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "code_mf/Inc/GET_TARGET_ABSC.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
 			"path" : "code_mf/Inc/IMU_DATA_GET.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "code_mf/Inc/MOTOR_PID_TASK.h",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -1630,6 +1620,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "code_mf/Src/ABSC_GET_TASK.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "code_mf/Src/BMI088Middleware.c",
 			"sourceGroupIndex" : 1
 		},
@@ -1654,6 +1650,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "code_mf/Src/CHASSIS_TASK.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "code_mf/Src/DEBUG_UART_TASK.c",
 			"sourceGroupIndex" : 1
 		},
@@ -1672,6 +1674,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "code_mf/Src/GET_TARGET_ABSC.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "code_mf/Src/IMU_DATA_GET.c",
 			"sourceGroupIndex" : 1
 		},
@@ -1679,6 +1687,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "code_mf/Src/LED_TASK.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "code_mf/Src/MOTOR_PID_TASK.c",
 			"sourceGroupIndex" : 1
 		},
 		{

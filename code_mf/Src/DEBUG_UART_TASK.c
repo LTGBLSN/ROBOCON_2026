@@ -15,8 +15,12 @@ void DEBUG_UART_TASK()
 {
     while (1)
     {
-        usart1_printf("%d \r\n", rcData.rc.ch[0]);
-        // usart1_printf("hello world \r\n");
+        usart1_printf("%f,%f,%f,%f \r\n",
+            MOTOR_11_REAL_ABSC,
+            MOTOR_12_REAL_ABSC,
+            MOTOR_13_REAL_ABSC,
+            MOTOR_14_REAL_ABSC
+);
         osDelay(1);
     }
 }

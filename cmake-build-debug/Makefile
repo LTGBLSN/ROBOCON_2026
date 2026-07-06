@@ -1247,6 +1247,30 @@ Middlewares/Third_Party/FreeRTOS/Source/timers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 
+code_mf/Src/ABSC_GET_TASK.obj: code_mf/Src/ABSC_GET_TASK.c.obj
+.PHONY : code_mf/Src/ABSC_GET_TASK.obj
+
+# target to build an object file
+code_mf/Src/ABSC_GET_TASK.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/ABSC_GET_TASK.c.obj
+.PHONY : code_mf/Src/ABSC_GET_TASK.c.obj
+
+code_mf/Src/ABSC_GET_TASK.i: code_mf/Src/ABSC_GET_TASK.c.i
+.PHONY : code_mf/Src/ABSC_GET_TASK.i
+
+# target to preprocess a source file
+code_mf/Src/ABSC_GET_TASK.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/ABSC_GET_TASK.c.i
+.PHONY : code_mf/Src/ABSC_GET_TASK.c.i
+
+code_mf/Src/ABSC_GET_TASK.s: code_mf/Src/ABSC_GET_TASK.c.s
+.PHONY : code_mf/Src/ABSC_GET_TASK.s
+
+# target to generate assembly for a file
+code_mf/Src/ABSC_GET_TASK.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/ABSC_GET_TASK.c.s
+.PHONY : code_mf/Src/ABSC_GET_TASK.c.s
+
 code_mf/Src/BMI088Middleware.obj: code_mf/Src/BMI088Middleware.c.obj
 .PHONY : code_mf/Src/BMI088Middleware.obj
 
@@ -1343,6 +1367,30 @@ code_mf/Src/CAN_SENT_TASK.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/CAN_SENT_TASK.c.s
 .PHONY : code_mf/Src/CAN_SENT_TASK.c.s
 
+code_mf/Src/CHASSIS_TASK.obj: code_mf/Src/CHASSIS_TASK.c.obj
+.PHONY : code_mf/Src/CHASSIS_TASK.obj
+
+# target to build an object file
+code_mf/Src/CHASSIS_TASK.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/CHASSIS_TASK.c.obj
+.PHONY : code_mf/Src/CHASSIS_TASK.c.obj
+
+code_mf/Src/CHASSIS_TASK.i: code_mf/Src/CHASSIS_TASK.c.i
+.PHONY : code_mf/Src/CHASSIS_TASK.i
+
+# target to preprocess a source file
+code_mf/Src/CHASSIS_TASK.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/CHASSIS_TASK.c.i
+.PHONY : code_mf/Src/CHASSIS_TASK.c.i
+
+code_mf/Src/CHASSIS_TASK.s: code_mf/Src/CHASSIS_TASK.c.s
+.PHONY : code_mf/Src/CHASSIS_TASK.s
+
+# target to generate assembly for a file
+code_mf/Src/CHASSIS_TASK.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/CHASSIS_TASK.c.s
+.PHONY : code_mf/Src/CHASSIS_TASK.c.s
+
 code_mf/Src/DEBUG_UART_TASK.obj: code_mf/Src/DEBUG_UART_TASK.c.obj
 .PHONY : code_mf/Src/DEBUG_UART_TASK.obj
 
@@ -1415,6 +1463,30 @@ code_mf/Src/GET_RC_TASK.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/GET_RC_TASK.c.s
 .PHONY : code_mf/Src/GET_RC_TASK.c.s
 
+code_mf/Src/GET_TARGET_ABSC.obj: code_mf/Src/GET_TARGET_ABSC.c.obj
+.PHONY : code_mf/Src/GET_TARGET_ABSC.obj
+
+# target to build an object file
+code_mf/Src/GET_TARGET_ABSC.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/GET_TARGET_ABSC.c.obj
+.PHONY : code_mf/Src/GET_TARGET_ABSC.c.obj
+
+code_mf/Src/GET_TARGET_ABSC.i: code_mf/Src/GET_TARGET_ABSC.c.i
+.PHONY : code_mf/Src/GET_TARGET_ABSC.i
+
+# target to preprocess a source file
+code_mf/Src/GET_TARGET_ABSC.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/GET_TARGET_ABSC.c.i
+.PHONY : code_mf/Src/GET_TARGET_ABSC.c.i
+
+code_mf/Src/GET_TARGET_ABSC.s: code_mf/Src/GET_TARGET_ABSC.c.s
+.PHONY : code_mf/Src/GET_TARGET_ABSC.s
+
+# target to generate assembly for a file
+code_mf/Src/GET_TARGET_ABSC.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/GET_TARGET_ABSC.c.s
+.PHONY : code_mf/Src/GET_TARGET_ABSC.c.s
+
 code_mf/Src/IMU_DATA_GET.obj: code_mf/Src/IMU_DATA_GET.c.obj
 .PHONY : code_mf/Src/IMU_DATA_GET.obj
 
@@ -1462,6 +1534,30 @@ code_mf/Src/LED_TASK.s: code_mf/Src/LED_TASK.c.s
 code_mf/Src/LED_TASK.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/LED_TASK.c.s
 .PHONY : code_mf/Src/LED_TASK.c.s
+
+code_mf/Src/MOTOR_PID_TASK.obj: code_mf/Src/MOTOR_PID_TASK.c.obj
+.PHONY : code_mf/Src/MOTOR_PID_TASK.obj
+
+# target to build an object file
+code_mf/Src/MOTOR_PID_TASK.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MOTOR_PID_TASK.c.obj
+.PHONY : code_mf/Src/MOTOR_PID_TASK.c.obj
+
+code_mf/Src/MOTOR_PID_TASK.i: code_mf/Src/MOTOR_PID_TASK.c.i
+.PHONY : code_mf/Src/MOTOR_PID_TASK.i
+
+# target to preprocess a source file
+code_mf/Src/MOTOR_PID_TASK.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MOTOR_PID_TASK.c.i
+.PHONY : code_mf/Src/MOTOR_PID_TASK.c.i
+
+code_mf/Src/MOTOR_PID_TASK.s: code_mf/Src/MOTOR_PID_TASK.c.s
+.PHONY : code_mf/Src/MOTOR_PID_TASK.s
+
+# target to generate assembly for a file
+code_mf/Src/MOTOR_PID_TASK.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dm_h723_lib.elf.dir\build.make CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/MOTOR_PID_TASK.c.s
+.PHONY : code_mf/Src/MOTOR_PID_TASK.c.s
 
 code_mf/Src/MahonyAHRS.obj: code_mf/Src/MahonyAHRS.c.obj
 .PHONY : code_mf/Src/MahonyAHRS.obj
@@ -1804,6 +1900,9 @@ help:
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.s
+	@echo ... code_mf/Src/ABSC_GET_TASK.obj
+	@echo ... code_mf/Src/ABSC_GET_TASK.i
+	@echo ... code_mf/Src/ABSC_GET_TASK.s
 	@echo ... code_mf/Src/BMI088Middleware.obj
 	@echo ... code_mf/Src/BMI088Middleware.i
 	@echo ... code_mf/Src/BMI088Middleware.s
@@ -1816,6 +1915,9 @@ help:
 	@echo ... code_mf/Src/CAN_SENT_TASK.obj
 	@echo ... code_mf/Src/CAN_SENT_TASK.i
 	@echo ... code_mf/Src/CAN_SENT_TASK.s
+	@echo ... code_mf/Src/CHASSIS_TASK.obj
+	@echo ... code_mf/Src/CHASSIS_TASK.i
+	@echo ... code_mf/Src/CHASSIS_TASK.s
 	@echo ... code_mf/Src/DEBUG_UART_TASK.obj
 	@echo ... code_mf/Src/DEBUG_UART_TASK.i
 	@echo ... code_mf/Src/DEBUG_UART_TASK.s
@@ -1825,12 +1927,18 @@ help:
 	@echo ... code_mf/Src/GET_RC_TASK.obj
 	@echo ... code_mf/Src/GET_RC_TASK.i
 	@echo ... code_mf/Src/GET_RC_TASK.s
+	@echo ... code_mf/Src/GET_TARGET_ABSC.obj
+	@echo ... code_mf/Src/GET_TARGET_ABSC.i
+	@echo ... code_mf/Src/GET_TARGET_ABSC.s
 	@echo ... code_mf/Src/IMU_DATA_GET.obj
 	@echo ... code_mf/Src/IMU_DATA_GET.i
 	@echo ... code_mf/Src/IMU_DATA_GET.s
 	@echo ... code_mf/Src/LED_TASK.obj
 	@echo ... code_mf/Src/LED_TASK.i
 	@echo ... code_mf/Src/LED_TASK.s
+	@echo ... code_mf/Src/MOTOR_PID_TASK.obj
+	@echo ... code_mf/Src/MOTOR_PID_TASK.i
+	@echo ... code_mf/Src/MOTOR_PID_TASK.s
 	@echo ... code_mf/Src/MahonyAHRS.obj
 	@echo ... code_mf/Src/MahonyAHRS.i
 	@echo ... code_mf/Src/MahonyAHRS.s
