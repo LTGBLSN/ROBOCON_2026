@@ -166,7 +166,12 @@ extern float RIGHT_FRONT_VIRTUAL_LEG_ANGLE_04 ;
 extern float RIGHT_FRONT_VIRTUAL_LEG_ANGLE_07 ;
 extern float RIGHT_FRONT_VIRTUAL_LEG_ANGLE_0474 ;
 
+extern float timeA ;
+extern float timeB ;
 
+extern float chassis_speed ;
+extern float chassis_yaw_speed ;
+extern float chassis_height ;
 
 
 

@@ -75,4 +75,5 @@ CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/CHASSIS_TASK.c.obj: \
  D:\RoboMaster_git\ROBOCON_2026\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart_ex.h \
  D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/uart_printf.h \
  D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/CHASSIS_TASK.h \
- D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/ABSC_GET_TASK.h
+ D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/ABSC_GET_TASK.h \
+ D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/GET_RC_TASK.h

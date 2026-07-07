@@ -84,5 +84,6 @@ CMakeFiles/dm_h723_lib.elf.dir/Core/Src/main.c.obj: \
  D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/remote_control.h \
  D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/BMI088driver.h \
  D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/bsp_can.h \
+ D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/CHASSIS_TASK.h \
  D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/dm_motor.h \
  D:\RoboMaster_git\ROBOCON_2026\code_mf\Inc/struct_typedef.h

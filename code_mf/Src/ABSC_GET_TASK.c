@@ -9,13 +9,18 @@
 #include "uart_printf.h"
 #include "ABSC_GET_TASK.h"
 
+#include "GET_RC_TASK.h"
+
 
 void ABSC_GET_TASK()
 {
-    init_absc();//注意阻塞了一段时间
+    osDelay(ABSC_INIT_MS);
+    init_absc();
+
 
     while (1)
     {
+
         MOTOR_11_get_absc();
         MOTOR_12_get_absc();
         MOTOR_13_get_absc();
@@ -24,13 +29,17 @@ void ABSC_GET_TASK()
         MOTOR_22_get_absc();
         MOTOR_23_get_absc();
         MOTOR_24_get_absc();
+        if (rcData.rc.s[0] == 2)
+        {
+            init_absc();
+        }
         osDelay(1);
     }
 }
 
 void init_absc()
 {
-    osDelay(ABSC_INIT_MS);
+
     MOTOR_11_INIT_ANGLE = motor_can1_data[0].ecd;
     MOTOR_11_LAST_ECD = motor_can1_data[0].ecd;
     MOTOR_11_LAPS = 0.0f ;

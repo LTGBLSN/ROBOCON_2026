@@ -15,13 +15,28 @@ void DEBUG_UART_TASK()
 {
     while (1)
     {
-        usart1_printf("%f,%f,%f,%f \r\n",
-            MOTOR_11_REAL_ABSC,
-            MOTOR_12_REAL_ABSC,
-            MOTOR_13_REAL_ABSC,
-            MOTOR_14_REAL_ABSC
-);
+        usart1_printf("%f,%f,%f,%d,%d \r\n",
+        MOTOR_11_GIVEN_ANGLE,
+        MOTOR_11_REAL_ABSC,
+        MOTOR_11_GIVEN_SPEED,
+        motor_can1_data[0].speed_rpm,
+        MOTOR_11_GIVEN_CURRENT
+        );
+
+
+        // usart1_printf("%f,%f,%f,%d,%d \r\n",
+        // MOTOR_12_GIVEN_ANGLE,
+        // MOTOR_12_REAL_ABSC,
+        // MOTOR_12_GIVEN_SPEED,
+        // motor_can1_data[1].speed_rpm,
+        // MOTOR_12_GIVEN_CURRENT
+        // );
+
+
+        // usart1_printf("%f,%f \r\n",
+        //               timeA,
+        //               timeB
+        // );
         osDelay(1);
     }
 }
-

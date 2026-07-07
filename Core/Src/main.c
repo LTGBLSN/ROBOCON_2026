@@ -32,6 +32,7 @@
 #include "remote_control.h"
 #include "BMI088driver.h"
 #include "bsp_can.h"
+#include "CHASSIS_TASK.h"
 #include "dm_motor.h"
 /* USER CODE END Includes */
 
@@ -184,6 +185,16 @@ float RIGHT_FRONT_VIRTUAL_LEG_ANGLE_047 = 0.0f ;
 float RIGHT_FRONT_VIRTUAL_LEG_ANGLE_04 = 0.0f ;
 float RIGHT_FRONT_VIRTUAL_LEG_ANGLE_07 = 0.0f ;
 float RIGHT_FRONT_VIRTUAL_LEG_ANGLE_0474 = 0.0f ;
+
+
+
+float timeA = 0;
+float timeB = T_time * 0.5f;
+
+float chassis_speed = 0.0f;
+float chassis_yaw_speed= 0.0f;
+
+float chassis_height = 0.0f;
 
 
 

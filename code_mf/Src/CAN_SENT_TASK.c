@@ -36,6 +36,9 @@ void CAN_SENT_TASK()
             MOTOR_23_GIVEN_CURRENT,
             MOTOR_24_GIVEN_CURRENT,
             0x200, CAN_CHANNEL_2);
+
+
+
     }
 
 

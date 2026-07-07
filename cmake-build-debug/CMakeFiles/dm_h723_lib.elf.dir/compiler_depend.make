@@ -319,6 +319,7 @@ CMakeFiles/dm_h723_lib.elf.dir/Core/Src/main.c.obj: D:/RoboMaster_git/ROBOCON_20
   D:/RoboMaster_git/ROBOCON_2026/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
   D:/RoboMaster_git/ROBOCON_2026/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
   D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/BMI088driver.h \
+  D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/CHASSIS_TASK.h \
   D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/bsp_can.h \
   D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/dm_motor.h \
   D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/remote_control.h \
@@ -2406,6 +2407,7 @@ CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/ABSC_GET_TASK.c.obj: D:/RoboMaster_gi
   D:/RoboMaster_git/ROBOCON_2026/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
   D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/ABSC_GET_TASK.h \
   D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/DJI_motors.h \
+  D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/GET_RC_TASK.h \
   D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/uart_printf.h
 
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/BMI088Middleware.c.obj: D:/RoboMaster_git/ROBOCON_2026/code_mf/Src/BMI088Middleware.c \
@@ -2735,6 +2737,7 @@ CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/CHASSIS_TASK.c.obj: D:/RoboMaster_git
   D:/RoboMaster_git/ROBOCON_2026/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
   D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/ABSC_GET_TASK.h \
   D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/CHASSIS_TASK.h \
+  D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/GET_RC_TASK.h \
   D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/uart_printf.h
 
 CMakeFiles/dm_h723_lib.elf.dir/code_mf/Src/DEBUG_UART_TASK.c.obj: D:/RoboMaster_git/ROBOCON_2026/code_mf/Src/DEBUG_UART_TASK.c \
@@ -3921,6 +3924,8 @@ D:/RoboMaster_git/ROBOCON_2026/Core/Inc/usart.h:
 
 D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/BMI088driver.h:
 
+D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/CHASSIS_TASK.h:
+
 D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/bsp_can.h:
 
 C:/CLionToolchains/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_endian.h:
@@ -4077,6 +4082,8 @@ D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/ABSC_GET_TASK.h:
 
 D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/DJI_motors.h:
 
+D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/GET_RC_TASK.h:
+
 D:/RoboMaster_git/ROBOCON_2026/code_mf/Src/BMI088Middleware.c:
 
 D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/BMI088Middleware.h:
@@ -4084,10 +4091,6 @@ D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/BMI088Middleware.h:
 D:/RoboMaster_git/ROBOCON_2026/code_mf/Src/CALL_BACK.c:
 
 D:/RoboMaster_git/ROBOCON_2026/code_mf/Src/CAN_SENT_TASK.c:
-
-D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/GET_RC_TASK.h:
-
-D:/RoboMaster_git/ROBOCON_2026/code_mf/Inc/CHASSIS_TASK.h:
 
 D:/RoboMaster_git/ROBOCON_2026/code_mf/Src/DEBUG_UART_TASK.c:
 
